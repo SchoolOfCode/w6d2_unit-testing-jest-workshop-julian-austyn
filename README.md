@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=6616235&assignment_repo_type=AssignmentRepo)
 # Introduction to Jest
 
 It's time to flex those docs-reading muscles 💪📖 and use the Jest docs to figure out how to do basic testing in JavaScript.
