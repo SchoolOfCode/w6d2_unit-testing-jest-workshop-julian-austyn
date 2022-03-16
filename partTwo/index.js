@@ -2,7 +2,13 @@
 the tests in index.test.js. */
 
 export function greetPerson(name) {
-  //👉 2.1 - Write the code for this function based on what you see in the tests!
+  if (typeof name === 'string') {
+    return 'Greetings, ' + name;
+  } else {
+    return 'Please try again with a name!';
+  }
+  //👉 2.1 - Write the code for this function
+  //based on what you see in the tests!
 }
 
 //👉 2.2 - Write tests for the functions below:
@@ -30,8 +36,7 @@ export function addKeyValuePairToObject(object, key, value) {
 
 export function throwErrorIfEven(number) {
   if (number % 2 === 0) {
-    throw new Error(`Error, ${number} is even!`);
+    return `Error, ${number} is even!`;
   }
   return false;
 }
-
